@@ -19,9 +19,6 @@ def get_model_path():
 
 MODEL_PATH = get_model_path()
 
-# Display the path for debugging
-st.info(f"Looking for model at: {MODEL_PATH}")
-
 if not os.path.exists(MODEL_PATH):
     st.error(f"Model file not found at: {MODEL_PATH}")
     
