@@ -1,6 +1,6 @@
 # Heart Disease Prediction
 
-This project predicts the likelihood of heart disease using machine learning models.  
+This project focuses on analyzing, predicting, and visualizing heart disease risk using machine learning models.  
 It includes a web app built with Streamlit for easy user interaction.
 
 # Project Structure
@@ -24,3 +24,16 @@ Unsupervised:
 
 # Dataset
 The dataset is based on the UCI Heart Disease dataset, commonly used in medical ML research.
+
+# How to run
+1. Clone the repository:
+   ``` bash
+   git clone https://github.com/mariam818/Heart-Disease-Prediction.git
+   cd Heart-Disease-Prediction
+   
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Run the Streamlit app:
+cd ui
+streamlit run ui.py
